@@ -3,6 +3,9 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+# 미래 날짜의 글 표시
+future: true 
+
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
@@ -16,7 +19,7 @@ timezone: Asia/Seoul
 
 title: AI Developer # the main title
 
-tagline: "즐겁게 개발하고 있습니다 :)" # it will display as the subtitle
+tagline: "This is an Oasis of AI <br> 즐겁게 개발하고 있습니다!" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -223,3 +226,10 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+ # Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
