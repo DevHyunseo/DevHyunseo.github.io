@@ -11,6 +11,7 @@ tags:
     ]
 use_math: true 
 published: true
+layout: post
 ---
 
 지도 학습 모델(Supervised Learning Model)은 머신러닝의 한 종류로, 입력 데이터(Input)와 이에 해당하는 정답 데이터(Output, 레이블)를 사용하여 모델을 학습시켜 새로운 데이터에 대해 예측을 수행하는 모델이다.
